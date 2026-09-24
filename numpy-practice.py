@@ -9,3 +9,8 @@ print(sum)
 mean = np.mean(arr)
 print(mean)
 print(np.std(arr))
+
+matrix = np.array([[1, 2], [3, 4]])
+print(matrix)
+print(matrix.shape)
+print(matrix.dtype)
