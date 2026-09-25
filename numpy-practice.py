@@ -30,6 +30,10 @@ print(index1)
 # select a row
 print(matrix[1])
 # select a column
-print(matrix[:, 1])
+# print(matrix[:, 1])numpy slicing
+print('[0:2] --> ', matrix[0:2])
+print(matrix[1:3, 1:3])
 
+#  select row 0-1 and column 1-2
+print('select row 0-1 and column 1-2 --> ', matrix[0:2,1:3])
 
