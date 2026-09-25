@@ -53,3 +53,21 @@ print(numbers.reshape(-1,3))
 print(numbers.reshape(3,-1))
 print(numbers.reshape(-1,2))
 print(numbers.reshape(2,-1))
+
+numbers = np.array([
+    [1,2,3],
+    [4,5,6]
+])
+
+print(numbers.reshape(-1))
+print(numbers.flatten())
+
+# Boolean filtering or indexing
+numbers = np.array([[1,2,9], [4,5,6]])
+
+numbers[numbers < 3] = 0
+print(numbers)
+
+numbers[numbers % 2 == 0] = 0
+print(numbers)
+
